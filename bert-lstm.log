@@ -1,0 +1,52 @@
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:131: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:133: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4185: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:174: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:190: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:199: The name tf.is_variable_initialized is deprecated. Please use tf.compat.v1.is_variable_initialized instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:206: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:2974: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3295: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+INFO:root:epoch0
+INFO:root:get final prf:
+INFO:root:Epoch: 0p-0.2749731471535983
+INFO:root:Epoch: 0r-0.7844739530132788
+INFO:root:Epoch: 0F-0.40721102863202546
+INFO:root:epoch1
+INFO:root:get final prf:
+INFO:root:Epoch: 1p-0.5845997973657548
+INFO:root:Epoch: 1r-0.5893769152196119
+INFO:root:Epoch: 1F-0.5869786368260427
+INFO:root:epoch2
+INFO:root:get final prf:
+INFO:root:Epoch: 2p-0.6453252032520326
+INFO:root:Epoch: 2r-0.6486210418794689
+INFO:root:Epoch: 2F-0.6469689251146207
+INFO:root:epoch3
+INFO:root:get final prf:
+INFO:root:Epoch: 3p-0.5354706684856753
+INFO:root:Epoch: 3r-0.8018386108273748
+INFO:root:Epoch: 3F-0.642126789366053

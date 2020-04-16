@@ -1,0 +1,467 @@
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:131: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:133: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4185: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:174: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:190: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:199: The name tf.is_variable_initialized is deprecated. Please use tf.compat.v1.is_variable_initialized instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:206: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:2974: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3295: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+WARNING:tensorflow:From /home/a931/anaconda3/envs/keras/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+INFO:root:epoch0
+INFO:root:get final prf:
+INFO:root:Epoch: 0p-0.36078782452999103
+INFO:root:Epoch: 0r-0.41164453524004085
+INFO:root:Epoch: 0F-0.3845419847328244
+INFO:root:epoch1
+INFO:root:get final prf:
+INFO:root:Epoch: 1p-0.41264559068219636
+INFO:root:Epoch: 1r-0.5066394279877426
+INFO:root:Epoch: 1F-0.45483723062815223
+INFO:root:epoch2
+INFO:root:get final prf:
+INFO:root:Epoch: 2p-0.5776942355889725
+INFO:root:Epoch: 2r-0.47088866189989786
+INFO:root:Epoch: 2F-0.5188519977490151
+INFO:root:epoch3
+INFO:root:get final prf:
+INFO:root:Epoch: 3p-0.5630331753554503
+INFO:root:Epoch: 3r-0.6067415730337079
+INFO:root:Epoch: 3F-0.584070796460177
+INFO:root:epoch4
+INFO:root:get final prf:
+INFO:root:Epoch: 4p-0.5083032490974729
+INFO:root:Epoch: 4r-0.7191011235955056
+INFO:root:Epoch: 4F-0.5956006768189509
+INFO:root:epoch5
+INFO:root:get final prf:
+INFO:root:Epoch: 5p-0.5132048536759457
+INFO:root:Epoch: 5r-0.7344228804902962
+INFO:root:Epoch: 5F-0.6042016806722689
+INFO:root:epoch6
+INFO:root:get final prf:
+INFO:root:Epoch: 6p-0.6146384479717814
+INFO:root:Epoch: 6r-0.7119509703779366
+INFO:root:Epoch: 6F-0.6597255087553242
+INFO:root:epoch7
+INFO:root:get final prf:
+INFO:root:Epoch: 7p-0.6166666666666667
+INFO:root:Epoch: 7r-0.7180796731358529
+INFO:root:Epoch: 7F-0.6635205285512035
+INFO:root:epoch8
+INFO:root:get final prf:
+INFO:root:Epoch: 8p-0.6441947565543071
+INFO:root:Epoch: 8r-0.7027579162410623
+INFO:root:Epoch: 8F-0.6722032242305813
+INFO:root:epoch9
+INFO:root:get final prf:
+INFO:root:Epoch: 9p-0.6101973684210527
+INFO:root:Epoch: 9r-0.7579162410623085
+INFO:root:Epoch: 9F-0.6760820045558087
+INFO:root:epoch10
+INFO:root:get final prf:
+INFO:root:Epoch: 10p-0.6764132553606238
+INFO:root:Epoch: 10r-0.7088866189989785
+INFO:root:Epoch: 10F-0.6922693266832918
+INFO:root:epoch11
+INFO:root:get final prf:
+INFO:root:Epoch: 11p-0.6866791744840526
+INFO:root:Epoch: 11r-0.7477017364657814
+INFO:root:Epoch: 11F-0.7158924205378973
+INFO:root:epoch12
+INFO:root:get final prf:
+INFO:root:Epoch: 12p-0.6523681858802503
+INFO:root:Epoch: 12r-0.745658835546476
+INFO:root:Epoch: 12F-0.6959008579599619
+INFO:root:epoch13
+INFO:root:get final prf:
+INFO:root:Epoch: 13p-0.6844484629294756
+INFO:root:Epoch: 13r-0.7732379979570991
+INFO:root:Epoch: 13F-0.7261390887290168
+INFO:root:epoch14
+INFO:root:get final prf:
+INFO:root:Epoch: 14p-0.6695352839931153
+INFO:root:Epoch: 14r-0.7946884576098059
+INFO:root:Epoch: 14F-0.7267631947687996
+INFO:root:epoch15
+INFO:root:get final prf:
+INFO:root:Epoch: 15p-0.712442396313364
+INFO:root:Epoch: 15r-0.7895812053115424
+INFO:root:Epoch: 15F-0.749031007751938
+INFO:root:epoch16
+INFO:root:get final prf:
+INFO:root:Epoch: 16p-0.6791489361702128
+INFO:root:Epoch: 16r-0.81511746680286
+INFO:root:Epoch: 16F-0.7409470752089136
+INFO:root:epoch17
+INFO:root:get final prf:
+INFO:root:Epoch: 17p-0.7098821396192203
+INFO:root:Epoch: 17r-0.7997957099080695
+INFO:root:Epoch: 17F-0.7521613832853026
+INFO:root:epoch18
+INFO:root:get final prf:
+INFO:root:Epoch: 18p-0.7553299492385787
+INFO:root:Epoch: 18r-0.7599591419816139
+INFO:root:Epoch: 18F-0.7576374745417516
+INFO:root:epoch19
+INFO:root:get final prf:
+INFO:root:Epoch: 19p-0.7005253940455342
+INFO:root:Epoch: 19r-0.8171603677221655
+INFO:root:Epoch: 19F-0.7543611504007544
+INFO:root:epoch20
+INFO:root:get final prf:
+INFO:root:Epoch: 20p-0.6867572156196944
+INFO:root:Epoch: 20r-0.8263534218590398
+INFO:root:Epoch: 20F-0.7501159017153454
+INFO:root:epoch21
+INFO:root:get final prf:
+INFO:root:Epoch: 21p-0.7145471180237878
+INFO:root:Epoch: 21r-0.797752808988764
+INFO:root:Epoch: 21F-0.7538610038610039
+INFO:root:epoch22
+INFO:root:get final prf:
+INFO:root:Epoch: 22p-0.7285191956124314
+INFO:root:Epoch: 22r-0.8140960163432074
+INFO:root:Epoch: 22F-0.7689339122045344
+INFO:root:epoch23
+INFO:root:get final prf:
+INFO:root:Epoch: 23p-0.7382920110192838
+INFO:root:Epoch: 23r-0.8212461695607763
+INFO:root:Epoch: 23F-0.7775628626692456
+INFO:root:epoch24
+INFO:root:get final prf:
+INFO:root:Epoch: 24p-0.7313432835820896
+INFO:root:Epoch: 24r-0.8008171603677222
+INFO:root:Epoch: 24F-0.7645051194539249
+INFO:root:epoch25
+INFO:root:get final prf:
+INFO:root:Epoch: 25p-0.7411214953271028
+INFO:root:Epoch: 25r-0.8100102145045965
+INFO:root:Epoch: 25F-0.7740361151781356
+INFO:root:epoch26
+INFO:root:get final prf:
+INFO:root:Epoch: 26p-0.7642436149312377
+INFO:root:Epoch: 26r-0.7946884576098059
+INFO:root:Epoch: 26F-0.7791687531296945
+INFO:root:epoch27
+INFO:root:get final prf:
+INFO:root:Epoch: 27p-0.7582314205079962
+INFO:root:Epoch: 27r-0.8232890704800817
+INFO:root:Epoch: 27F-0.7894221351616062
+INFO:root:epoch28
+INFO:root:get final prf:
+INFO:root:Epoch: 28p-0.7497708524289642
+INFO:root:Epoch: 28r-0.8355464759959143
+INFO:root:Epoch: 28F-0.7903381642512077
+INFO:root:epoch29
+INFO:root:get final prf:
+INFO:root:Epoch: 29p-0.7776699029126214
+INFO:root:Epoch: 29r-0.8181818181818182
+INFO:root:Epoch: 29F-0.7974116475858636
+INFO:root:epoch30
+INFO:root:get final prf:
+INFO:root:Epoch: 30p-0.7290209790209791
+INFO:root:Epoch: 30r-0.8518896833503575
+INFO:root:Epoch: 30F-0.7856806406029203
+INFO:root:epoch31
+INFO:root:get final prf:
+INFO:root:Epoch: 31p-0.7578125
+INFO:root:Epoch: 31r-0.7926455566905005
+INFO:root:Epoch: 31F-0.7748377433849225
+INFO:root:epoch32
+INFO:root:get final prf:
+INFO:root:Epoch: 32p-0.7609523809523809
+INFO:root:Epoch: 32r-0.8161389172625128
+INFO:root:Epoch: 32F-0.787580088713652
+INFO:root:epoch33
+INFO:root:get final prf:
+INFO:root:Epoch: 33p-0.7771317829457365
+INFO:root:Epoch: 33r-0.8192032686414709
+INFO:root:Epoch: 33F-0.797613127797116
+INFO:root:epoch34
+INFO:root:get final prf:
+INFO:root:Epoch: 34p-0.7532833020637899
+INFO:root:Epoch: 34r-0.8202247191011236
+INFO:root:Epoch: 34F-0.7853300733496332
+INFO:root:epoch35
+INFO:root:get final prf:
+INFO:root:Epoch: 35p-0.7579737335834896
+INFO:root:Epoch: 35r-0.8253319713993871
+INFO:root:Epoch: 35F-0.7902200488997555
+INFO:root:epoch36
+INFO:root:get final prf:
+INFO:root:Epoch: 36p-0.7610364683301344
+INFO:root:Epoch: 36r-0.8100102145045965
+INFO:root:Epoch: 36F-0.7847600197921821
+INFO:root:epoch37
+INFO:root:get final prf:
+INFO:root:Epoch: 37p-0.7777777777777778
+INFO:root:Epoch: 37r-0.8365679264555669
+INFO:root:Epoch: 37F-0.8061023622047244
+INFO:root:epoch38
+INFO:root:get final prf:
+INFO:root:Epoch: 38p-0.7701804368471035
+INFO:root:Epoch: 38r-0.8283963227783453
+INFO:root:Epoch: 38F-0.7982283464566929
+INFO:root:epoch39
+INFO:root:get final prf:
+INFO:root:Epoch: 39p-0.7662463627546072
+INFO:root:Epoch: 39r-0.8069458631256384
+INFO:root:Epoch: 39F-0.7860696517412935
+INFO:root:epoch40
+INFO:root:get final prf:
+INFO:root:Epoch: 40p-0.7608095676172953
+INFO:root:Epoch: 40r-0.8447395301327886
+INFO:root:Epoch: 40F-0.8005808325266215
+INFO:root:epoch41
+INFO:root:get final prf:
+INFO:root:Epoch: 41p-0.7462406015037594
+INFO:root:Epoch: 41r-0.8110316649642493
+INFO:root:Epoch: 41F-0.7772883015173764
+INFO:root:epoch42
+INFO:root:get final prf:
+INFO:root:Epoch: 42p-0.7716165413533834
+INFO:root:Epoch: 42r-0.8386108273748724
+INFO:root:Epoch: 42F-0.8037200195790504
+INFO:root:epoch43
+INFO:root:get final prf:
+INFO:root:Epoch: 43p-0.7757009345794392
+INFO:root:Epoch: 43r-0.8478038815117467
+INFO:root:Epoch: 43F-0.8101512933138117
+INFO:root:epoch44
+INFO:root:get final prf:
+INFO:root:Epoch: 44p-0.7786483839373164
+INFO:root:Epoch: 44r-0.8120531154239019
+INFO:root:Epoch: 44F-0.7949999999999999
+INFO:root:epoch45
+INFO:root:get final prf:
+INFO:root:Epoch: 45p-0.771996215704825
+INFO:root:Epoch: 45r-0.8335035750766088
+INFO:root:Epoch: 45F-0.8015717092337918
+INFO:root:epoch46
+INFO:root:get final prf:
+INFO:root:Epoch: 46p-0.8098663926002055
+INFO:root:Epoch: 46r-0.804902962206333
+INFO:root:Epoch: 46F-0.8073770491803278
+INFO:root:epoch47
+INFO:root:get final prf:
+INFO:root:Epoch: 47p-0.7806324110671937
+INFO:root:Epoch: 47r-0.8069458631256384
+INFO:root:Epoch: 47F-0.7935710698141638
+INFO:root:epoch48
+INFO:root:get final prf:
+INFO:root:Epoch: 48p-0.7925270403146509
+INFO:root:Epoch: 48r-0.8232890704800817
+INFO:root:Epoch: 48F-0.8076152304609218
+INFO:root:epoch49
+INFO:root:get final prf:
+INFO:root:Epoch: 49p-0.7734962406015038
+INFO:root:Epoch: 49r-0.8406537282941777
+INFO:root:Epoch: 49F-0.8056779246206559
+INFO:root:epoch50
+INFO:root:get final prf:
+INFO:root:Epoch: 50p-0.7857142857142857
+INFO:root:Epoch: 50r-0.797752808988764
+INFO:root:Epoch: 50F-0.7916877850988343
+INFO:root:epoch51
+INFO:root:get final prf:
+INFO:root:Epoch: 51p-0.7632311977715878
+INFO:root:Epoch: 51r-0.839632277834525
+INFO:root:Epoch: 51F-0.7996108949416342
+INFO:root:epoch52
+INFO:root:get final prf:
+INFO:root:Epoch: 52p-0.7747306562193927
+INFO:root:Epoch: 52r-0.8079673135852911
+INFO:root:Epoch: 52F-0.791
+INFO:root:epoch53
+INFO:root:get final prf:
+INFO:root:Epoch: 53p-0.7472014925373134
+INFO:root:Epoch: 53r-0.8181818181818182
+INFO:root:Epoch: 53F-0.7810823988298392
+INFO:root:epoch54
+INFO:root:get final prf:
+INFO:root:Epoch: 54p-0.7862137862137862
+INFO:root:Epoch: 54r-0.8038815117466803
+INFO:root:Epoch: 54F-0.7949494949494951
+INFO:root:epoch55
+INFO:root:get final prf:
+INFO:root:Epoch: 55p-0.784390243902439
+INFO:root:Epoch: 55r-0.8212461695607763
+INFO:root:Epoch: 55F-0.8023952095808384
+INFO:root:epoch56
+INFO:root:get final prf:
+INFO:root:Epoch: 56p-0.7727708533077661
+INFO:root:Epoch: 56r-0.8232890704800817
+INFO:root:Epoch: 56F-0.7972304648862512
+INFO:root:epoch57
+INFO:root:get final prf:
+INFO:root:Epoch: 57p-0.7847222222222222
+INFO:root:Epoch: 57r-0.8079673135852911
+INFO:root:Epoch: 57F-0.7961751383995973
+INFO:root:epoch58
+INFO:root:get final prf:
+INFO:root:Epoch: 58p-0.7472014925373134
+INFO:root:Epoch: 58r-0.8181818181818182
+INFO:root:Epoch: 58F-0.7810823988298392
+INFO:root:epoch59
+INFO:root:get final prf:
+INFO:root:Epoch: 59p-0.7838645418326693
+INFO:root:Epoch: 59r-0.8038815117466803
+INFO:root:Epoch: 59F-0.7937468482097833
+INFO:root:epoch60
+INFO:root:get final prf:
+INFO:root:Epoch: 60p-0.7648780487804878
+INFO:root:Epoch: 60r-0.8008171603677222
+INFO:root:Epoch: 60F-0.7824351297405189
+INFO:root:epoch61
+INFO:root:get final prf:
+INFO:root:Epoch: 61p-0.8026052104208417
+INFO:root:Epoch: 61r-0.8181818181818182
+INFO:root:Epoch: 61F-0.8103186646433992
+INFO:root:epoch62
+INFO:root:get final prf:
+INFO:root:Epoch: 62p-0.7779904306220096
+INFO:root:Epoch: 62r-0.8304392236976507
+INFO:root:Epoch: 62F-0.8033596837944663
+INFO:root:epoch63
+INFO:root:get final prf:
+INFO:root:Epoch: 63p-0.7897838899803536
+INFO:root:Epoch: 63r-0.8212461695607763
+INFO:root:Epoch: 63F-0.8052078117175764
+INFO:root:epoch64
+INFO:root:get final prf:
+INFO:root:Epoch: 64p-0.7917888563049853
+INFO:root:Epoch: 64r-0.8273748723186926
+INFO:root:Epoch: 64F-0.8091908091908092
+INFO:root:epoch65
+INFO:root:get final prf:
+INFO:root:Epoch: 65p-0.7900990099009901
+INFO:root:Epoch: 65r-0.81511746680286
+INFO:root:Epoch: 65F-0.8024132730015083
+INFO:root:epoch66
+INFO:root:get final prf:
+INFO:root:Epoch: 66p-0.7807953443258971
+INFO:root:Epoch: 66r-0.822267620020429
+INFO:root:Epoch: 66F-0.8009950248756218
+INFO:root:epoch67
+INFO:root:get final prf:
+INFO:root:Epoch: 67p-0.7872549019607843
+INFO:root:Epoch: 67r-0.8202247191011236
+INFO:root:Epoch: 67F-0.8034017008504253
+INFO:root:epoch68
+INFO:root:get final prf:
+INFO:root:Epoch: 68p-0.7843326885880078
+INFO:root:Epoch: 68r-0.8283963227783453
+INFO:root:Epoch: 68F-0.8057625434674616
+INFO:root:epoch69
+INFO:root:get final prf:
+INFO:root:Epoch: 69p-0.7567567567567568
+INFO:root:Epoch: 69r-0.8294177732379979
+INFO:root:Epoch: 69F-0.7914230019493177
+INFO:root:epoch70
+INFO:root:get final prf:
+INFO:root:Epoch: 70p-0.7896825396825397
+INFO:root:Epoch: 70r-0.8130745658835546
+INFO:root:Epoch: 70F-0.8012078510317061
+INFO:root:epoch71
+INFO:root:get final prf:
+INFO:root:Epoch: 71p-0.7822265625
+INFO:root:Epoch: 71r-0.8181818181818182
+INFO:root:Epoch: 71F-0.7998002995506739
+INFO:root:epoch72
+INFO:root:get final prf:
+INFO:root:Epoch: 72p-0.7850834151128557
+INFO:root:Epoch: 72r-0.8171603677221655
+INFO:root:Epoch: 72F-0.8008008008008007
+INFO:root:epoch73
+INFO:root:get final prf:
+INFO:root:Epoch: 73p-0.78060263653484
+INFO:root:Epoch: 73r-0.8467824310520939
+INFO:root:Epoch: 73F-0.8123468887800097
+INFO:root:epoch74
+INFO:root:get final prf:
+INFO:root:Epoch: 74p-0.7749287749287749
+INFO:root:Epoch: 74r-0.8335035750766088
+INFO:root:Epoch: 74F-0.8031496062992125
+INFO:root:epoch75
+INFO:root:get final prf:
+INFO:root:Epoch: 75p-0.799009900990099
+INFO:root:Epoch: 75r-0.8243105209397344
+INFO:root:Epoch: 75F-0.8114630467571645
+INFO:root:epoch76
+INFO:root:get final prf:
+INFO:root:Epoch: 76p-0.781190019193858
+INFO:root:Epoch: 76r-0.8314606741573034
+INFO:root:Epoch: 76F-0.8055418109846612
+INFO:root:epoch77
+INFO:root:get final prf:
+INFO:root:Epoch: 77p-0.7758454106280194
+INFO:root:Epoch: 77r-0.8202247191011236
+INFO:root:Epoch: 77F-0.7974180734856008
+INFO:root:epoch78
+INFO:root:get final prf:
+INFO:root:Epoch: 78p-0.772420443587271
+INFO:root:Epoch: 78r-0.8181818181818182
+INFO:root:Epoch: 78F-0.7946428571428573
+INFO:root:epoch79
+INFO:root:get final prf:
+INFO:root:Epoch: 79p-0.7532588454376163
+INFO:root:Epoch: 79r-0.8263534218590398
+INFO:root:Epoch: 79F-0.7881149537262542
+INFO:root:epoch80
+INFO:root:get final prf:
+INFO:root:Epoch: 80p-0.756007393715342
+INFO:root:Epoch: 80r-0.8355464759959143
+INFO:root:Epoch: 80F-0.7937894226103834
+INFO:root:epoch81
+INFO:root:get final prf:
+INFO:root:Epoch: 81p-0.809
+INFO:root:Epoch: 81r-0.8263534218590398
+INFO:root:Epoch: 81F-0.8175846387064174
+INFO:root:epoch82
+INFO:root:get final prf:
+INFO:root:Epoch: 82p-0.7933723196881092
+INFO:root:Epoch: 82r-0.8314606741573034
+INFO:root:Epoch: 82F-0.8119700748129675
+INFO:root:epoch83
+INFO:root:get final prf:
+INFO:root:Epoch: 83p-0.7743490838958534
+INFO:root:Epoch: 83r-0.8202247191011236
+INFO:root:Epoch: 83F-0.7966269841269842
+INFO:root:epoch84
+INFO:root:get final prf:
+INFO:root:Epoch: 84p-0.796844181459566
+INFO:root:Epoch: 84r-0.8253319713993871
+INFO:root:Epoch: 84F-0.8108379327646764
+INFO:root:epoch85
+INFO:root:get final prf:
+INFO:root:Epoch: 85p-0.7868217054263565
+INFO:root:Epoch: 85r-0.8294177732379979
+INFO:root:Epoch: 85F-0.8075584286424663
+INFO:root:epoch86
+INFO:root:get final prf:
+INFO:root:Epoch: 86p-0.7715988083416088
+INFO:root:Epoch: 86r-0.7936670071501533
+INFO:root:Epoch: 86F-0.7824773413897282
